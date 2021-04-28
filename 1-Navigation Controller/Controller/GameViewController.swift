@@ -17,6 +17,8 @@ class GameViewController: UIViewController {
     var timer = Timer()
     var score: Int = 0
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -34,6 +36,16 @@ class GameViewController: UIViewController {
         }
         
     }
+    
+   /* func isOverlapped(bubbleToCreate: Bubble) -> Bool {
+        for currentBubbles in bubbleArray {
+            if bubbleToCreate.frame.intersects(currentBubbles.frame) {
+             return true
+            }
+        }
+        return false
+    }
+ */
     
     @objc func counting() {
         remainingTime -= 1

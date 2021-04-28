@@ -11,12 +11,12 @@ class Bubble: UIButton {
     
     let xPosition = Int.random(in: 50...350)
     let yPosition = Int.random(in: 200...800)
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = .red
         self.frame = CGRect(x: xPosition, y: yPosition, width: 50, height: 50)
         self.layer.cornerRadius = 0.5 * self.bounds.size.width
+        
     }
         
 

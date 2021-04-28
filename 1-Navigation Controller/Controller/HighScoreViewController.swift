@@ -8,13 +8,12 @@
 import UIKit
 
 class HighScoreViewController: UIViewController {
-    /*let defaults = UserDefaults.standard
-    let score = defaults.integer(forKey: "highScore")
-    let name = defaults.string(forKey: "nameofHS")*/
     
     
     let score = UserDefaults.standard.integer(forKey: "Score")
     let name = UserDefaults.standard.string(forKey: "Name")
+    
+
 
     
     @IBOutlet weak var nameLabel: UILabel!

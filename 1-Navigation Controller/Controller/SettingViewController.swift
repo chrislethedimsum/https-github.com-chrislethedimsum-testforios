@@ -11,6 +11,9 @@ class SettingViewController: UIViewController {
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var timeSlider: UISlider!
     @IBOutlet weak var timeNumber: UILabel!
+    
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
